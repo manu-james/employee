@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/searchemp', function () {
     return view('searchemp');
 });
+Route::get('/about', function () {
+    return view('about');
+});
